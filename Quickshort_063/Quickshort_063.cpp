@@ -7,3 +7,14 @@ int cmp_count = 0; // number of comprasion
 int mov_count = 0; // number of data movemnts
 int n;
 
+void input() {
+	while (true)
+	{
+		cout << "Masukkan panajng element array: ";
+		cin >> n;
+
+		if (n <= 20)
+			break;
+		else
+			cout << "\nMaksimum panjang array adalah 0" << endl;
+	}
